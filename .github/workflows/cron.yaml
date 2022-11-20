@@ -8,4 +8,4 @@ jobs:
   cron:
     runs-on: ubuntu-latest
     steps:
-    - run: curl -x POST -b '${{secrets.COOKIE}}' https://hk4e-api-os.hoyoverse.com/event/sol/sign?act_id=e202102251931481
+    - run: curl -X POST -b '${{secrets.COOKIE}}' https://hk4e-api-os.hoyoverse.com/event/sol/sign?act_id=e202102251931481
