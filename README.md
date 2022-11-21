@@ -4,7 +4,7 @@ Claim genshin <a href='https://www.hoyolab.com/'><b>hoyo</b></a> dailies without
 
 ## Getting started?
 
-### Fork <a href='https://github.com/purpleblueslime/Yae-bot'>`Yae-bot`</a>
+### Create your own <a href='https://github.com/purpleblueslime/Yae-bot/generate'>`Yae-bot`</a>
 
 ### Get cookie
 <b>></b> Login to <a href='https://www.hoyolab.com/'><b>`hoyolab`</b></a>~<br>
@@ -13,7 +13,7 @@ Claim genshin <a href='https://www.hoyolab.com/'><b>hoyo</b></a> dailies without
 <b>></b> From there copy `ltoken` and `ltuid`.
 
 ### Set cookie as envs
-<b>></b> Open <a href='https://github.com/purpleblueslime/yae-bot/settings/secrets/actions'><b>`./settings/secrets/actions`</b></a> of your fork!<br>
+<b>></b> Open <a href='https://github.com/purpleblueslime/yae-bot/settings/secrets/actions'><b>`./settings/secrets/actions`</b></a> of your Yae-bot!<br>
 <b>></b> Create a new secret `COOKIE` with values you copied from <a href='https://www.hoyolab.com/'><b>`hoyolab`</b></a>.<br>
 <b>></b> New secret `COOKIE` should look like `ltoken=value;ltuid=value`. *value being values of each ltoken and ltuid*.
 
